@@ -14,23 +14,23 @@ let languages = [`English`,`Spanish`,`French`,`German`,`Ukrainian`,`Italian`,`Ar
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 
-let book1 = {
+const book1 = {
     title: `Harry Poter`,
-    pagecount: 300,
+    pageCount: 300,
     genre: `fantasy`,
 }
 console.log(book1)
 
-let book2 = {
+const book2 = {
     title: `Sherlock Holms`,
-    pagecount: 511,
+    pageCount: 511,
     genre: `detective fiction`,
 }
 console.log(book2)
 
-let book3 = {
+const book3 = {
     title: `Death Note`,
-    pagecount: 108,
+    pageCount: 108,
     genre: `Psychological thriller`,
 }
 console.log(book3)
@@ -39,7 +39,7 @@ console.log(book3)
 
 let objectone = {
     title: `Harry Poter`,
-    pagecount: 300,
+    pageCount: 300,
     genre: `fantasy`,
     authors: [
         {
@@ -52,7 +52,7 @@ let objectone = {
 
 let objecttwo = {
     title: `Sherlock Holms`,
-    pagecount: 511,
+    pageCount: 511,
     genre: `detective fiction`,
     authors: [
         {
@@ -64,7 +64,7 @@ let objecttwo = {
 
 let objectthree = {
     title: `Death Note`,
-    pagecount: 108,
+    pageCount: 108,
     genre: `Psychological thriller`,
     authors: [
         {
